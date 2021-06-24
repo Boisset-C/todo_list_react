@@ -4,7 +4,7 @@ function Modal(props) {
   }
 
   function confirmHandler() {
-    props.onClick();
+    props.onConfirm();
   }
 
   return (
